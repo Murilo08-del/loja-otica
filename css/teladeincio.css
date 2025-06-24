@@ -89,6 +89,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3vh;
 }
 
 .subtitulo {
@@ -96,15 +98,17 @@
     justify-content: center;
     align-items: center;
     margin-top: 1vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 @media (max-width: 600px) {
     h1 {
-        font-size: 2rem;
+        font-size: 3vh;
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
+
