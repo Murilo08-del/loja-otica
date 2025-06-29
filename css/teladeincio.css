@@ -89,7 +89,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 2vh;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3vh;
 }
 
@@ -112,3 +112,39 @@
     }
 }
 
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    height: 30vh;
+    width: 30vh;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixa2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vh;
+    height: 30vh;
+    width: 30vh;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 600px)
+{
+    button {
+        width: 1vh
+    }
+}
